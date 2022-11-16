@@ -17,10 +17,10 @@ y = 1
 
 
 
-# groceries = ["apple"  , "banana" , "orange"]
+groceries = ["apple"  , "banana" , "orange"]
 
-# for z in groceries: 
-#     print(z)
+for z in groceries: 
+     print(z)
 
 
 # this is used to giver a range 1 - 10 
