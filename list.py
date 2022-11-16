@@ -24,17 +24,43 @@ del my_list[2]
 
 print(my_list)
 
-my_tuple = ("nike" , "jordan" ,"puma" , "adidas" , "Cdg")
+#This prints out the lengths of something. For example you can determine the number in the list and string characters
+print(len(my_list))
 
-# my_tuple.append("yeezys")
+#This can be used to sort items. For example in alphabetical order
+my_list.sort()
 
-print(my_tuple)
+print(my_list)
 
-# del my_tuple[2]
+#Flips order of a list 
+my_list.reverse()
+print(my_list)
 
-print(my_tuple)
+second_list = [ "purple" , "red" , "green" , "yellow" , "black"]
 
-#You can't add things to tupples since its inmutable
-#my_tuple[0] = "APPLE"
+#This is how you combine lists 
+print(my_list + second_list)
 
-print(my_tuple)
+
+#You can seperate the different lists using this
+print("  | ".join(my_list + second_list))
+
+#Can make one long string into a list 
+names = ("anna , wesey , saint".split(" , "))
+
+print(names)
+
+# my_tuple = ("nike" , "jordan" ,"puma" , "adidas" , "Cdg")
+
+# # my_tuple.append("yeezys")
+
+# print(my_tuple)
+
+# # del my_tuple[2]
+
+# print(my_tuple)
+
+# #You can't add things to tupples since its inmutable
+# #my_tuple[0] = "APPLE"
+
+# print(my_tuple)
