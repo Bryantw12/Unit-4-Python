@@ -1,23 +1,37 @@
 
 x=int(input("What is your grade?"))
-x = int(x)
 
 list = []  
-list.append = int(input())
+list.append(x)
+print(list)
+
+x=int(input("What is your second grade?"))
+
+ 
+list.append(x)
+print(list)
+
+x=int(input("What is your third grade?"))
+
+  
+list.append(x)
+print(list)
+
+x=int(input("What is your forth grade?"))
+
+ 
+list.append(x)
 print(list)
 
 
 
 
 
-
-x = [90 , 80 , 60, 0]
-
 sum = 0 
 
-for grade  in x:
+for grade  in list:
   sum = sum + grade
 
-  print(sum / len(x))  
+print(sum / len(list))  
 
 
