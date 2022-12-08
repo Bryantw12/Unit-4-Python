@@ -9,14 +9,36 @@ class Person:
         self.age = age
 
     def  hi(self):
-        print("hi my name is"+ self.name)
+        print("hi my name is "+ self.name)
 
-Bryant = Person("Bryant", 17)
+
+class Teacher(Person):
+    role = "teacher"
+
+    def hi (self):
+        print("Hi my name is Mx. " + self.name)
+
+Forlenza = Teacher("Forlenza", 184)
+print(Forlenza.role)
+
+Forlenza.hi()
+
+class Student(Person):
+    role = "Student"
+
+
+Bryant = Student("Bryant", 17)
 print(Bryant.name)
 print(Bryant.age)
 Bryant.hi()
 
 
-Wesley = Person("Wesley",99)
+Wesley = Student("Wesley",99)
 print(Wesley.name)
 print(Wesley.age)
+
+
+Students = Student("Students" , 185)
+print(Students.role)
+
+Students.hi()
